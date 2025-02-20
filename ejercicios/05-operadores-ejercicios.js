@@ -45,13 +45,27 @@ console.log(b == a) //b no es igual que a
 
 // 5. Utiliza el operador logico and
 
+let x = 10
+let y = 15
+let z = 20
+
+console.log(x > y && y > x) 
+
 // 6. Utiliza el operador logico or
+
+console.log(y < x || y > x) 
 
 // 7. Combina ambos operadores logicos
 
+console.log(x > z && z < y || y > x)
+
 // 8. Añade ulguna negacion
+
+console.log(!(z > y && y > x))
 
 // 9. Utiliza el operador ternario
 
-// 10. Combina operadores aritmeticos, de comparacion y logicas
+const isCousin = true
+isCousin ? console.log("Si es mi primo") : console.log("No es mi primo")
 
+// 10. Combina operadores aritmeticos, de comparacion y logicas
