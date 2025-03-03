@@ -17,4 +17,9 @@ console.log(mySet)
 // add y delete
 
 mySet.add("Hernan")
+
+console.log(mySet)
+
+mySet.delete("Hernan")
+
 console.log(mySet)
