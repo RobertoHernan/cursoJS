@@ -14,4 +14,7 @@ console.log(mySet)
 
 // Metodos comunes
 
-//
+// add y delete
+
+mySet.add("Hernan")
+console.log(mySet)
